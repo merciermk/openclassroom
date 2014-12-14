@@ -6,7 +6,7 @@
 /*   By: mmercier <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/12 18:12:17 by mmercier          #+#    #+#             */
-/*   Updated: 2014/11/12 21:13:26 by mmercier         ###   ########.fr       */
+/*   Updated: 2014/12/15 00:19:22 by mmercier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,8 @@ int main ()
 			MAX = 1000;
 		if (dif == 3)
 			MAX = 10000;
+		
+		nombreMystere = (rand() % (MAX - MIN + 1)) + MIN;
 		do
 		{
 			// On demande le nombre
